@@ -1,8 +1,3 @@
-Installation
-
-Install Python 3.8 or higher and numpy. A highly recommended IDE is PyCharm 
-https://www.jetbrains.com/pycharm/.
-
 Calculator 
 
 The calculator exemplifies the use of Stacks, HashTables and BinaryTrees. It allows defining mathematical expression with variables, assigning values to the variables and evaluate it.
@@ -35,27 +30,25 @@ is input(). Use the same pattern to add new options accordingly.
 
 The project is organized in different files (modules):
 main.py: The main entry point of the program. It will present the menu that executes the assignments
-Calculator.py: The calculator system to be done in Lab 1, Lab 3 and Lab  4
-BookStore.py: The book store system to be done during the semester
+Calculator.py: The calculator system 
+BookStore.py: The book store system 
 Book.py: Data class that holds the attributes of a book. The class allows to compare ranks using the operator < or >
 SortableBook.py: Data class that holds the attributes of a book. The class allows to compare by alphabetical order using the operator < or >
-Interfaces.py: The interfaces to be implemented during the semeter: Stack, Queue, Deque, List, Set, Graph
-ArrayStack.py: It will implement the interface Stack in Lab 1
-ArrayQueue.py: It will implement the interface Queue in Lab 1
-ArrayList.py: It will implement the interface List in Lab 1
-ArrayDeque.py: It implements the interface Deque. It is a specialization (Inheritance) of ArrayList
-RandomQueue.py: It will implement the interface Queue. It is a specialization (Inheritance) of ArrayQueue
-SLLStack.py: It will implement the interface Stack in Lab 2
-SLLQueue.py: It will implement the interface Queue in Lab 2
-DLList.py: It will implement the interface List in Lab 2
+Interfaces.py: The interfaces: Stack, Queue, Deque, List, Set, Graph
+ArrayStack.py: Implements interface Stack
+ArrayQueue.py: Implements interface Queue
+ArrayList.py: Implements interface List
+ArrayDeque.py: Implements interface Deque. It is a specialization (Inheritance) of ArrayList
+RandomQueue.py: Implements interface Queue. It is a specialization (Inheritance) of ArrayQueue
+SLLStack.py: Implements interface Stack
+SLLQueue.py: Implements interface Queue
+DLList.py: Implements interface List
 DLLDeque.py: It implements the interface Deque. It is a specialization (Inheritance) of DLLList.
-ChainedHashTable.py: It will implement the interface Set in Lab 3
-BinarySearchTree.py: It will implement the interface Set in Lab 4
-BinaryHeap.py: It will implement the interface Queue in Lab 5. It removes the element with highest priority
-algorithms.py: It will implement the sorting algorithms in Lab 6
-AdjacencyList.py: It will implement the Graph interface in Lab 7 using the adjencency list
-AdjacencyMatrix.py: It will implement the Graph interface in Lab 7 using the adjacency matrix
-RedBlackTree.py: It will implement the interface Set a balance tree.  This will be given as an extra-credit assignment, if time permits discussion of the relevant topics.
+ChainedHashTable.py: It implements the interface Set
+BinarySearchTree.py: It implements the interface Set
+BinaryHeap.py: It implements the interface Queue. It removes the element with highest priority
+AdjacencyList.py: It implements the Graph interface using the adjencency list
+AdjacencyMatrix.py: It implements the Graph interface in using the adjacency matrix
 
 
 Stack
@@ -78,4 +71,5 @@ Set
 Graph
     |- AdjacencyMatrix
     |- AdjacencyList
+
 
